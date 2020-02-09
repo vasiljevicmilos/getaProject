@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(22, 76, 167, 0.6);
+}
+
+.search-form {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form input {
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    
+}
+
+.search-form input:active,
+.search-form input,
+.search-form input:focus {
+    outline: none;
+}
+
+.search-form .search-button {
+    padding: 10px 40px;
+    width: 150px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 200;
+    display: inline-block;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    color: rgba(22, 76, 167, 0.6);
+    background-color: #ffffff;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.search-form .search-button:active,
+.search-form .search-button:focus {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    width: 500px;
+    margin: 0 auto;
+}
+
+ul .track {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(22, 76, 167, 0.6);;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul .track p {
+    margin: 5px;
+}
+
+ul .track .order-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error-message-container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    color: red;
+}
